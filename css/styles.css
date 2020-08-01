@@ -3,10 +3,10 @@
   height: 650px;
 }
 h1 {
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
 }
 p {
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
 }
 .intro {
   background-color: skyblue;
@@ -45,19 +45,36 @@ p {
   text-align: center;
 }
 
+.homeButton {
+  height: fit-content;
+  margin-bottom: 0;
+  padding: 10px 10px;
+  background-color: rgb(9, 186, 245);
+  box-shadow: -3px 3px lightblue, -2px 2px lightblue, -1px 1px lightblue;
+}
 .links-contact,
 .links-projects {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  font-weight: 600;
+  background-color: lightsteelblue;
+}
+
+
+
+.links-contact:hover,
+.links-projects:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 100px;
+  text-decoration-color: blue;
+  color: red;
 }
 
 .links-projects {
   margin-right: 15px;
-  background-color: lightgreen;
 }
 .links-contact {
-  background-color: lime;
 }
 
 .ground {
@@ -96,7 +113,6 @@ p {
   position: relative;
   width: 94.13px;
   top: 200px;
-  
 }
 .sun {
   position: absolute;
@@ -119,17 +135,16 @@ p {
 .pulsate {
   animation: pulsate 2.5s infinite;
   overflow: hidden;
-
 }
 @keyframes pulsate {
   0% {
-      transform: scale(0.95);
+    transform: scale(0.95);
   }
   50% {
-      transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
-      transform: scale(0.95);
+    transform: scale(0.95);
   }
 }
 .cloud1 {
@@ -146,7 +161,7 @@ p {
   top: 12.5%;
   z-index: 17;
 }
-@media (max-width:796px) {
+@media (max-width: 796px) {
   img#optionalstuff {
     display: none;
   }
