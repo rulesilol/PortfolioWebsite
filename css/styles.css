@@ -24,6 +24,7 @@ p {
   height: fit-content;
   left: calc(50% - 116.25px);
   top: calc(17.5% - 65px);
+  z-index: 18;
 }
 
 .heading-projects {
@@ -91,11 +92,11 @@ p {
   top: 190px;
   transform: scaleX(-1);
 }
-.pidgeon {
+.badger {
   position: relative;
   width: 94.13px;
-  top: 190px;
-  transform: scaleX(-1);
+  top: 200px;
+  
 }
 .sun {
   position: absolute;
@@ -117,6 +118,8 @@ p {
 }
 .pulsate {
   animation: pulsate 2.5s infinite;
+  overflow: hidden;
+
 }
 @keyframes pulsate {
   0% {
@@ -134,12 +137,17 @@ p {
   height: 55px;
   left: 15%;
   top: 25%;
-  z-index: 18;
+  z-index: 17;
 }
 .cloud2 {
   position: absolute;
   height: 55px;
   right: 15%;
-  top: 10%;
-  z-index: 18;
+  top: 12.5%;
+  z-index: 17;
+}
+@media (max-width:796px) {
+  img#optionalstuff {
+    display: none;
+  }
 }
