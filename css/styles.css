@@ -49,9 +49,7 @@ p {
   height: fit-content;
   margin-bottom: 0;
   padding: 10px 10px;
-  background-color: rgb(9, 186, 245);
-  box-shadow: -3px 3px lightblue, -2px 2px lightblue, -1px 1px lightblue;
-}
+  background-color: rgb(9, 186, 245);}
 .links-contact,
 .links-projects {
   padding-top: 10px;
