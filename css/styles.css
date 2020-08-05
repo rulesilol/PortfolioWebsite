@@ -76,7 +76,7 @@ p {
 }
 
 .ground {
-  padding-top: 120px;
+  padding-top: 220px;
 }
 
 .strip1 {
@@ -98,19 +98,19 @@ p {
   background: #52392f;
 }
 .tree {
-  height: 450px;
+  height: 350px;
   z-index: 20;
 }
 .beaver {
   position: relative;
   width: 94.13px;
-  top: 190px;
+  top: 140px;
   transform: scaleX(-1);
 }
 .badger {
   position: relative;
   width: 94.13px;
-  top: 200px;
+  top: 150px;
 }
 .sun {
   position: absolute;
