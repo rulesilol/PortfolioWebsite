@@ -22,8 +22,7 @@ p {
   position: absolute;
   width: fit-content;
   height: fit-content;
-  /* This for some reason uncentre's the text. I dunno why... */
-  /* left: calc(50% - 116.25px); */
+  left: calc(50% - 116.25px);
   top: calc(17.5% - 65px);
   z-index: 18;
 }
