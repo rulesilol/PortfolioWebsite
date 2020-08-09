@@ -26,6 +26,23 @@ p {
   top: calc(17.5% - 65px);
   z-index: 18;
 }
+@media (max-height: 775px) {
+  #name_job {
+    top: calc(22.5% - 65px);
+  }
+}
+
+@media (max-height: 625px) {
+  #name_job {
+    top: calc(25% - 65px);
+  }
+}
+
+@media (max-height: 530px) {
+  #name_job {
+    top: calc(30% - 65px);
+  }
+}
 
 .heading-projects {
   position: absolute;
